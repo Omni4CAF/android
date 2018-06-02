@@ -8,9 +8,12 @@
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
+  <remote  name="local"
+           fetch="https://github.com/Omni4land/" />
+
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-8.1" groups="pdk" />
 
-  <project path="build/make" name="android_build" remote="omnirom" revision="android-8.1" groups="pdk" >
+  <project path="build/make" name="build_make" remote="local" revision="android-8.1" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -45,10 +48,10 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="omnirom" revision="android-8.1" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="omnirom" revision="android-8.1" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-8.1" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-8.1" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="local" revision="lineage-15.1-caf-8996" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-8.1" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-8.1" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-8.1" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="local" revision="lineage-15.1-caf-8996" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="local" revision="lineage-15.1-caf-8996" />
   <project path="hardware/qcom/msm8998" name="android_hardware_qcom_msm8998" remote="omnirom" revision="android-8.1" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-8.1" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-8.1" />

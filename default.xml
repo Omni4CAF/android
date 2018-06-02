@@ -3,6 +3,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+  <remote  name="local"
+           fetch="https://github.com/Omni4land/" />
   <default revision="refs/tags/android-8.1.0_r28"
            remote="aosp"
            sync-c="true"

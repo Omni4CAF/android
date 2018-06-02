@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="local"
+           fetch="https://github.com/Omni4land/"
+           revision="android-8.1" />
+
+  <default remote="local" />
+
+  <project path="device/xiaomi/land" name="android_device_xiaomi_land" />
+  <project path="external/json-c" name="external_json-c" />
+  <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" />
+  <project path="vendor/xiaomi" name="vendor_xiaomi" />
+
+</manifest>
