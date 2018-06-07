@@ -6,7 +6,7 @@
   <remote  name="local"           
            fetch="https://github.com/Omni4land/" 
            path="repo/android"
-           revision="android-8.1"
+           revision="android-8.1" />
   <default revision="refs/tags/android-8.1.0_r32"
            remote="aosp"
            sync-c="true"
