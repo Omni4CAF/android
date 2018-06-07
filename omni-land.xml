@@ -12,5 +12,6 @@
   <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" />
   <project path="vendor/xiaomi" name="vendor_xiaomi" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" />
 
 </manifest>
