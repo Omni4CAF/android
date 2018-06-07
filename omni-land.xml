@@ -11,5 +11,6 @@
   <project path="external/json-c" name="external_json-c" />
   <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" />
   <project path="vendor/xiaomi" name="vendor_xiaomi" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" />
 
 </manifest>
