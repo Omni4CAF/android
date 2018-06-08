@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/xiaomi/land" name="android_device_xiaomi_land" remote="local"remote="local"/>
+  <project path="device/xiaomi/land" name="android_device_xiaomi_land" remote="local"/>
   <project path="external/json-c" name="external_json-c" remote="local"/>
   <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="local"/>
   <project path="vendor/xiaomi" name="vendor_xiaomi" remote="local"/>
