@@ -8,9 +8,6 @@
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
-  <remote  name="local"
-           fetch="https://github.com/Omni4land/" />
-
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-8.1" groups="pdk" />
 
   <project path="build/make" name="build_make" remote="local" revision="android-8.1" groups="pdk" >
