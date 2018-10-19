@@ -58,7 +58,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the OmniROM trees, use a command like this:
 
-    repo init -u git://github.com/omnirom/android.git -b android-8.1
+    repo init -u https://github.com/Omni4CAF/android -b android-8.1
 
 Then to sync up:
 
@@ -68,6 +68,41 @@ Then to build:
 
      cd <source-dir>; . build/envsetup.sh; brunch <device_name>
 
+Why this organization :-
+
+This organization is useful to compile omni rom for CAF devices without doing pathmaps modifications.
+
+What to do :-
+
+Compiler should have to clone own device sources same as other roms and hals.
+
+Hals path(Media/Audio/Display) :-
+
+hardware/qcom/media-caf/$(QCOM_varient)
+Same for audio and display
+
+e.g.
+hardware/qcom/media-caf/msm8996
+
+Note :-
+No project paths modifications needed at all.Just clone device sources and hals.And you are ready to go.
+
+Currently supported android versions :-
+(1).android 8.1
+(2).Support for pie is in future
+
+Organisation tested on :-
+
+(1).Land(Redmi 3S/3S prime/3X)(Enforcing/Permissive)(Treble/Non-treble)
+(2).Wt88047(Redmi 2)
+
+Build status :-
+
+Stable
+
+Contact me on telegram for further help :-
+
+https://t.me/lukatthisman
 
 If you need more information or a more detailed guide, click [here to see our wiki.](http://docs.omnirom.org)
 
