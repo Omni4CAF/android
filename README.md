@@ -89,7 +89,7 @@ No project paths modifications needed at all.Just clone device sources and hals.
 
 Currently supported android versions :-
 (1).android 8.1
-(2).Support for pie is in future
+(2).Support for pie will be in future
 
 Organisation tested on :-
 
